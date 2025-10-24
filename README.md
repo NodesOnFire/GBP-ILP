@@ -14,4 +14,4 @@ To run the resulting executable, you need the following input parameters: input_
 ```
 ./GBP-ILP /dataset/soc-livejournal 4033137 27933062 15
 ```
-The input graph must be in mtx format. Namely, the first line has the number of vertices, the second line has the number of edges, and the remaining lines have pairs of vertices (edges) separated by a blank space. The folder dataset contains some graphs in this format.
+The input graph must be in mtx format. Namely, the first line has the number of vertices, the second line has the number of edges, and the remaining lines have pairs of vertices (edges) separated by a blank space. The folder dataset contains some graphs in this format. There must be exactly one line for each edge.
