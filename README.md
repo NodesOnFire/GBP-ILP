@@ -1,5 +1,5 @@
 # GBP-ILP
-An Integer Linear Porgram (ILP) for the Graph Burning Problem (GBP).
+An Integer Linear Program (ILP) for the Graph Burning Problem (GBP).
 
 The GBP-ILP is implemented in the file GBP-ILP.cpp.
 
