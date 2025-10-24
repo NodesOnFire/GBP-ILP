@@ -3,7 +3,7 @@ An Integer Linear Program (ILP) for the Graph Burning Problem (GBP).
 
 The GBP-ILP is implemented in the file GBP-ILP.cpp.
 
-To compile this file you need Gurobi installed in your system and GNU GCC. In particular, we used Gurobi 12.0.3 and GNU GCC 14.2.0.
+To compile this file you need Gurobi and GNU GCC installed in your system. In particular, we used Gurobi 12.0.3 and GNU GCC 14.2.0.
 
 ```
 sudo g++ -w -Wall GBP-ILP.cpp -o GBP-ILP -I${GUROBI_HOME}/include -L${GUROBI_HOME}/lib -lgurobi_c++ -lgurobi120
